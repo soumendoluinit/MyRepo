@@ -4,6 +4,8 @@ metadata:
   name: hello-service
   labels:
     app: hello-service
+  annotations:
+    gitops.example.com/managed-by: argocd
 spec:
   replicas: 1
   strategy:
