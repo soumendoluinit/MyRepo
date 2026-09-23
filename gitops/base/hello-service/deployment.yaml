@@ -22,7 +22,7 @@ spec:
         - name: ghcr-pull
       containers:
         - name: hello-service
-          image: ghcr.io/soumendoluinit/myrepo@sha256:63e05f0c797cffa73b0fe060baa4f270eef22f048f80ae3d9309953efd42a764
+          image: ghcr.io/soumendoluinit/myrepo@sha256:359e6a5b1e91bf78d3f872fa346b496d188365e2a771da3013dc395f7babe12e
           imagePullPolicy: Always
           ports:
             - name: http
